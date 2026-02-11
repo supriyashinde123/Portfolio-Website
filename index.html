@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--FONT AWESOME-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--MAIN CSS-->
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Personal Portfolio</title>
+</head>
+<body>
+    <!--HEADER DESIGN-->
+
+    <header class="header">
+      
+      <nav class="navbar">
+        
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+      </nav>
+    </header> 
+
+<!--HOME SECTION-->
+
+<section class="home" id="home">
+  <div class="home-content">
+    <h3>Hi, Myself</h3>
+    <h1><span>Supriya</span> Shinde</h1>
+    <h3>And I'm a <span class="multiple-text"></span></h3>
+
+    
+    <div class="social-media">
+      
+      <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <a href="file:///C:/Users/dell/Desktop/CV.pdf" class="btn">Download CV</a>
+  </div>
+
+  </div>
+</section>
+
+
+<!--ABOUT SECTION-->
+
+<section class="about" id="about">
+  <div class="about-content">
+    <div class="my">
+    <h2 class="heading">About <span>Me</span></h2>
+    <h3>Frontend Developer</h3>
+    <p>I am Hardworking  and dedicated front-end development student with a strong foundation in HTML and CSS. With a passion for creating visually appealing and user-friendly websites , with a strong interest in responsive design and modern web development practices. My journey in tech began with a curiosity for how websites are built and a desire to contribute to the digital world. Continuously learning and growing to stay updated with the latest industry trends and technologies.
+ </p>
+     </div>
+  </div>
+</section>
+
+
+<!--SERVICES SECTION-->
+
+<section class="services" id="services">
+  <h2 class="heading">My<span>Services</span></h2>
+
+  <div class="services-container">
+    <div class="services-box">
+      <i class="fa-solid fa-code"></i>
+      <h3>Web Development</h3>
+      <p>I create websites using HTML, CSS, JavaScript and React.I focus on clean code, interactive features, and simple designs.My goal is to make websites look modern and easy to use.</p>
+  
+    </div>
+
+    <div class="services-box">
+      <i class="fa-solid fa-palette"></i>
+      <h3>UI/UX Design</h3>
+      <p>I design clean and user-friendly interfaces.I focus on making layouts simple, clear, and easy to navigate.Good design improves both looks and usability.</p>
+    </div>
+
+    <div class="services-box">
+      <i class="fa-brands fa-android"></i>
+      <h3>Responsive Design</h3>
+      <p>I build websites that work well on all devices.From mobile to desktop, every layout adjusts smoothly.This ensures users always get a good browsing experience.</p>
+    </div>
+
+  </div>
+</section>
+
+<!--PORTFOLIO SECTION-->
+
+<section class="portfolio" id="portfolio">
+  <h2 class="heading">Latest <span>Projects</span></h2>
+
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+      <img src="img/Amazon.png" alt="">
+      <div class="portfolio-layer">
+        <h4>Amazone Clone</h4>
+        <p>A simple e-commerce homepage built with HTML, CSS. Features responsive design with navbar, search, and product sections. </p>
+        <i class="fa-solid fa-up-right-from-square"></i>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="img/Tic.png" alt="">
+      <div class="portfolio-layer">
+        <h4>Tic-Tac-Toe</h4>
+        <p>A fun two-player game built with HTML, CSS, and JavaScript. Includes win detection, reset, and new game options for smooth gameplay. </p>
+        <i class="fa-solid fa-up-right-from-square"></i>
+      </div>
+    </div>
+    
+
+    <div class="portfolio-box">
+      <img src="img/Calculator.png" alt="">
+      <div class="portfolio-layer">
+        <h4>Calculator</h4>
+        <p>A simple React-based calculator with modular components for display and buttons. Designed for clean UI and easy arithmetic operations.</p>
+        <i class="fa-solid fa-up-right-from-square"></i>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!--CONTACT SECTION-->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+      </div>
+
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+  </section>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
